@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebMvc.Models;
+using WebMvc.Models.ViewModels;
 
 namespace WebMvc.Controllers
 {
@@ -31,6 +31,12 @@ namespace WebMvc.Controllers
 
         public IActionResult Privacy()
         {
+            return View();
+        }
+
+        public IActionResult Teste(){
+            ViewData["Titulo"] = "Testando nova página";
+
             return View();
         }
 
