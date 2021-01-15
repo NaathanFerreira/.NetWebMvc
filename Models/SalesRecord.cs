@@ -20,5 +20,6 @@ namespace WebMvc.Models
             Status = status;
             Seller = seller;
         }
+        
     }
 }
