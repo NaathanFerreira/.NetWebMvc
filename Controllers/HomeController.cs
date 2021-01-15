@@ -34,7 +34,8 @@ namespace WebMvc.Controllers
             return View();
         }
 
-        public IActionResult Teste(){
+        public IActionResult Teste()
+        {
             ViewData["Titulo"] = "Testando nova página";
 
             return View();

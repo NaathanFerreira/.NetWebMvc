@@ -10,7 +10,7 @@ namespace WebMvc.Models
         public SaleStatus Status { get; set; }
         public Seller Seller { get; set; }
 
-        public SalesRecord(){} // construtor vazio
+        public SalesRecord() { } // construtor vazio
 
         public SalesRecord(int id, DateTime date, double amount, SaleStatus status, Seller seller)
         {
@@ -20,6 +20,6 @@ namespace WebMvc.Models
             Status = status;
             Seller = seller;
         }
-        
+
     }
 }
